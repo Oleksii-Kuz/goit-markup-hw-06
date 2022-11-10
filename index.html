@@ -11,7 +11,7 @@
 		rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
 		integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
-		crossorigin="anonymous" referrerpolicy="no-referrer" />
+		crossorigin="anonymous" referrerpolicy="no-referrer">
 	<link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -391,7 +391,7 @@
 			<div class="footer__links">
 				<p class="links__title">
 					приєднуйтесь
-					</h4>
+				</p>
 				<ul class="footer__social">
 					<li class="social-link">
 						<a href="#">
@@ -450,8 +450,8 @@
 				<p class="modal-title">
 					Залиште свої дані, ми вам передзвонимо
 				</p>
-				<form class="modal-form" action="">
-					<label class="modal-field" for="">
+				<form class="modal-form" action="send">
+					<label class="modal-field">
 						<span class="modal-field__name">
 							Ім'я
 						</span>
@@ -462,19 +462,19 @@
 							</svg>
 						</span>
 					</label>
-					<label class="modal-field" for="">
+					<label class="modal-field">
 						<span class="modal-field__name">
 							Телефон
 						</span>
-						<input class="modal-field__input" name="phone" type="phone">
+						<input class="modal-field__input" name="phone" type="tel">
 						<span class="modal-field__icon">
 							<svg width="18" height="18" class="input-icon">
 								<use href="./images/symbol-defs.svg#icon-phone-icon"></use>
 							</svg>
 						</span>
 					</label>
-					<label class="modal-field" for="">
-						<span class="modal-field__name" class="label-name">
+					<label class="modal-field">
+						<span class="modal-field__name label-name">
 							Пошта
 						</span>
 						<input class="modal-field__input" name="mail" type="email">
@@ -484,8 +484,8 @@
 							</svg>
 						</span>
 					</label>
-					<label for="" class="modal-field">
-						<span class="modal-field__name" class="label-name">
+					<label class="modal-field">
+						<span class="modal-field__name label-name">
 							Коментар
 						</span>
 						<textarea class="modal-field__input modal-field__textarea" name="comments"
